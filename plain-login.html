@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plain Login Page</title>
+    <style>
+        /* Simple body styling */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            padding: 20px;
+        }
+
+        /* Center the login form */
+        .login-container {
+            background: white;
+            padding: 30px;
+            max-width: 400px;
+            margin: 50px auto;
+            border: 1px solid #ccc;
+        }
+
+        /* Basic heading style */
+        h2 {
+            text-align: center;
+            color: #333;
+        }
+
+        /* Form group spacing */
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        /* Label styling */
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        /* Input field styling */
+        input[type="text"],
+        input[type="password"] {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #999;
+            font-size: 14px;
+        }
+
+        /* Button styling */
+        .btn-login {
+            width: 100%;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .btn-login:hover {
+            background-color: #45a049;
+        }
+
+        /* Message styling */
+        .message {
+            margin-top: 15px;
+            padding: 10px;
+            text-align: center;
+            display: none;
+        }
+
+        .message.success {
+            background-color: #d4edda;
+            color: #155724;
+            border: 1px solid #c3e6cb;
+        }
+
+        .message.error {
+            background-color: #f8d7da;
+            color: #721c24;
+            border: 1px solid #f5c6cb;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <h2>Plain Login</h2>
+        <form id="loginForm">
+            <div class="form-group">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <button type="submit" class="btn-login">Login</button>
+            <div id="message" class="message"></div>
+        </form>
+    </div>
+
+    <script src="auth.js"></script>
+</body>
+</html>
