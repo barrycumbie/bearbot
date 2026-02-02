@@ -1,46 +1,83 @@
-@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css");
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik+Mono+One&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css');
+@import url('https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css');
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&family=Rubik+Mono+One&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css");
+
+
+
+.back-link {
+  color: #888 !important;
+  font-size: 1.2rem;
+  text-decoration: none !important;
+  transition: color 0.2s;
+}
+.back-link:hover {
+  color: #444 !important;
+  text-decoration: none;
+}
+
+html, body {
+  height: 100%;
+}
 
 body {
-    /* font-family: Arial, sans-serif; */
-    font-family: "Roboto", sans-serif;
-    margin: 20px;
-    background-color: #f4f4f4;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
-h1 {
-    color: #8e4fd6;
+main, .main-hero, .container, .container-fluid {
+  flex: 1 0 auto;
 }
 
-h2 {
-    color: rgb(194, 153, 53);
-    background-color: rgba(200, 200, 200, 0.1);
+footer.container-fluid {
+  flex-shrink: 0;
+}
+.navbar, .navbar-light {
+  background-color: rgba(250, 250, 250, 0.85) !important;
+  backdrop-filter: blur(2px);
 }
 
-.rubik-mono-one-regular {
-  font-family: "Rubik Mono One", monospace;
-  font-weight: 400;
-  font-style: normal;
+.main-hero {
+  background: rgba(250, 250, 250, 0.92);
+  /* ...existing code... */
 }
 
-
-.roboto-font {
-  font-family: "Roboto", sans-serif;
-  /* font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100; */
+footer.container-fluid {
+  background: rgba(245, 245, 245, 0.88);
+  backdrop-filter: blur(1.5px);
 }
 
+body {
+  font-family: 'Roboto Mono', 'Fira Mono', 'Consolas', monospace;
+  margin: 0;
+  background: linear-gradient(135deg, #f7f7f7 60%, #e3e3e3 100%);
+  color: #222;
+  /* background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100"%3E%3Cg fill-rule="evenodd"%3E%3Cg fill="%239C92AC" fill-opacity="0.4"%3E%3Cpath opacity=".5" d="M96 95h4v1h-4v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9zm-1 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9z"/%3E%3Cpath d="M6 5V0H5v5H0v1h5v94h1V6h94V5H6z"/%3E%3C/g%3E%3C/g%3E%3C/svg%3E'); */
+}
 
-.login-container {
-    border: solid 1px blue;
+.btn-secondary:hover {
+  /* background-color: #888;
+  color: #fff;
+  .icon-large {
+    font-size: 1.5rem;
+  } */
+}
+
+.back-link {
+  color: #888 !important;
+  font-size: 1.2rem;
+  text-decoration: underline !important;
+  transition: color 0.2s;
+}
+.back-link:hover {
+  color: #444 !important;
+  text-decoration: underline;
 }
 
 #author {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 /*
@@ -90,4 +127,12 @@ h2 {
 
 .inlineList>li {
     display: inline;
+}
+
+.login-container {
+  max-width: 400px;
+}
+
+.back-arrow {
+  font-size: 1.5rem;
 }

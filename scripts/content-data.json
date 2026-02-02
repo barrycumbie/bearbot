@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "title": "HTML Fundamentals",
+    "description": "Learn the building blocks of web development with HTML semantic elements, forms, and structure.",
+    "category": "HTML",
+    "difficulty": "beginner",
+    "tags": ["html", "fundamentals", "semantic", "structure"],
+    "link": "#",
+    "image": "https://via.placeholder.com/300x200/007bff/ffffff?text=HTML",
+    "content": "Master HTML5 semantic elements, proper document structure, forms, and accessibility best practices."
+  },
+  {
+    "id": 2,
+    "title": "CSS Grid & Flexbox",
+    "description": "Master modern CSS layout techniques with Grid and Flexbox for responsive designs.",
+    "category": "CSS",
+    "difficulty": "intermediate",
+    "tags": ["css", "grid", "flexbox", "layout", "responsive"],
+    "link": "#",
+    "image": "https://via.placeholder.com/300x200/28a745/ffffff?text=CSS",
+    "content": "Learn how to create complex, responsive layouts using CSS Grid and Flexbox with practical examples."
+  },
+  {
+    "id": 3,
+    "title": "JavaScript Basics",
+    "description": "Understanding variables, functions, DOM manipulation, and event handling in JavaScript.",
+    "category": "JavaScript",
+    "difficulty": "beginner",
+    "tags": ["javascript", "variables", "functions", "dom", "events"],
+    "link": "#",
+    "image": "https://via.placeholder.com/300x200/ffc107/000000?text=JavaScript",
+    "content": "Get started with JavaScript fundamentals including syntax, variables, functions, and DOM interactions."
+  },
+  {
+    "id": 4,
+    "title": "Bootstrap Components",
+    "description": "Explore Bootstrap's component library for rapid UI development and responsive design.",
+    "category": "Bootstrap",
+    "difficulty": "beginner",
+    "tags": ["bootstrap", "components", "ui", "responsive", "framework"],
+    "link": "#",
+    "image": "https://via.placeholder.com/300x200/6f42c1/ffffff?text=Bootstrap",
+    "content": "Learn to use Bootstrap components like cards, modals, navigation, and forms for professional web interfaces."
+  },
+  {
+    "id": 5,
+    "title": "Git Version Control",
+    "description": "Learn Git commands, branching strategies, and collaborative development workflows.",
+    "category": "Tools",
+    "difficulty": "intermediate",
+    "tags": ["git", "version-control", "collaboration", "github"],
+    "link": "#",
+    "image": "https://via.placeholder.com/300x200/dc3545/ffffff?text=Git",
+    "content": "Master Git for version control, including branching, merging, and collaborative development on GitHub."
+  },
+  {
+    "id": 6,
+    "title": "Responsive Web Design",
+    "description": "Create websites that work perfectly on all devices using responsive design principles.",
+    "category": "CSS",
+    "difficulty": "intermediate",
+    "tags": ["responsive", "mobile-first", "media-queries", "css"],
+    "link": "#",
+    "image": "https://via.placeholder.com/300x200/17a2b8/ffffff?text=Responsive",
+    "content": "Learn mobile-first design, media queries, and responsive layouts for modern web development."
+  },
+  {
+    "id": 7,
+    "title": "Web Accessibility",
+    "description": "Build inclusive websites with proper accessibility standards and ARIA attributes.",
+    "category": "Accessibility",
+    "difficulty": "intermediate",
+    "tags": ["accessibility", "aria", "inclusive", "standards"],
+    "link": "#",
+    "image": "https://via.placeholder.com/300x200/6c757d/ffffff?text=A11Y",
+    "content": "Ensure your websites are accessible to all users with semantic HTML, ARIA labels, and inclusive design."
+  },
+  {
+    "id": 8,
+    "title": "ES6+ JavaScript Features",
+    "description": "Modern JavaScript syntax including arrow functions, destructuring, and async/await.",
+    "category": "JavaScript",
+    "difficulty": "advanced",
+    "tags": ["es6", "modern-javascript", "arrow-functions", "async", "destructuring"],
+    "link": "#",
+    "image": "https://via.placeholder.com/300x200/fd7e14/ffffff?text=ES6+",
+    "content": "Master modern JavaScript features like arrow functions, template literals, destructuring, and async programming."
+  }
+]
