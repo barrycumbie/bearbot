@@ -1,0 +1,67 @@
+<input type="text" placeholder="user name">
+<input id="password" type="password" placeholder="password" value="lasagna">
+<button id="signin">sign in</button>
+<button id="signout">sign out</button>
+
+<div id="secretStuff"></div>
+
+<script>
+
+  const superSecurePassword = 'lasagna';
+
+  // sign in out stuff. 
+  // event calling a f/n: signin.addEventListener('click', verifyClick)
+
+  // iife/immediatly invoked f/n expression. 
+  // verbose IIFE: function() {/*code goes here*/}
+  // arrow function { document.getElementById('secretStuff').innerText = 'bad pwd. you are a bad person' }
+  const signin = document.getElementById("signin");
+
+  // iife/immediatly invoked f/n expression. 
+  // verbose IIFE: function() {/*code goes here*/}
+  // arrow function 
+  signin.addEventListener('click', () => {
+    /*code goes here*/
+    console.log('in sign in button click event');
+    //todo: collect stuff from dom 
+
+    const userPassword = document.getElementById("password").value
+    console.log('user entered password:', userPassword);
+
+    //todo: check the pwd, if lasagna then let em pass, else, don't
+
+    if (userPassword == superSecurePassword) {
+      document.getElementById('secretStuff').innerHTML = '<h1>user signed in</h1>'
+
+      //store login data
+      //sessionStorage.setItem('currentUser', username);
+      sessionStorage.setItem('authN', true);
+
+      window.location.href = 'content.html';
+    }
+    else {
+      //todo: showing something else. 
+    }
+  });
+
+
+
+
+  const signout = document.getElementById("signout");
+
+  signout.addEventListener('click', () => {
+    console.log('am i even in this signout thing');
+    sessionStorage.removeItem('authN');
+    sessionStorage.clear();
+    document.getElementById('secretStuff').innerText = 'u be signed out'
+  });
+
+    //named void f/n 
+    // function verifyClick() {
+    //   console.log('button clicked');
+    // return 2; 
+  
+
+  // verifyClick();
+
+</script>

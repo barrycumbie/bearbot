@@ -6,6 +6,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Learning Content - bearbot</title>
 
+  <script>
+
+const isAuthN = sessionStorage.getItem('authN')
+    console.log(sessionStorage.getItem('authN')); 
+
+    if(isAuthN)
+    { console.log('stay here')}
+    else {
+      window.location.href = "login3.html"
+    }
+
+  </script>
   
   <link href="../styles/bear-style.css" rel="stylesheet">
 </head>
