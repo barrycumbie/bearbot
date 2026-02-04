@@ -5,15 +5,110 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Learning Content - bearbot</title>
-
-  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css" rel="stylesheet">
   <link href="../styles/bear-style.css" rel="stylesheet">
 </head>
 
 <body class="container-fluid">
 
-   <a href="../index.html" class="d-flex align-items-center justify-content-center text-secondary display-6 arrow-link"><i class="bi bi-arrow-left"></i>back</a>
- 
+  <a href="../index.html"
+    class="d-flex align-items-center justify-content-center text-secondary display-6 arrow-link"><i
+      class="bi bi-arrow-left"></i>back</a>
+
+  <div class="container mt-4">
+
+    <!-- A) Vanilla HTML List -->
+    <section class="mb-5">
+      <h2>A) Vanilla HTML - Simple List</h2>
+      <ul>
+        <li>Tampa</li>
+        <li>New Hampshire</li>
+        <li>Huntsville</li>
+        <li>Auburn</li>
+        <li>Tampa</li>
+        <li>Redmond</li>
+        <li>Auburn</li>
+        <li>Hattiesburg</li>
+        <li>Florence</li>
+      </ul>
+      <hr>
+    </section>
+
+    <!-- B) Basic BS5 Cards -->
+    <section class="mb-5">
+      <h2>B) Basic Bootstrap 5 Cards</h2>
+      <div class="row">
+        <div class="col-md-4 mb-3">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Tampa</h5>
+            </div>
+          </div>
+        </div>
+
+        <hr>
+    </section>
+
+    <!-- C) Advanced BS5 Cards -->
+    <section class="mb-5">
+      <h2>C) Advanced Bootstrap 5 Cards</h2>
+      <div class="row">
+        <div class="col-md-6 mb-4">
+          <div class="card h-100">
+            <!-- https://picsum.photos -->
+            <div class="card-body">
+              <h5 class="card-title">Tampa</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Florida, USA</h6>
+              <img src="https://picsum.photos/100" class="card-img-top" alt="Tampa">
+
+              <p class="card-text">Born here. Oh, forgot I moved back before WA.</p>
+              <div class="mb-3">
+                <span class="badge bg-primary me-1">lived</span>
+                <span class="badge bg-secondary me-1">about cumbie</span>
+              </div>
+              <a href="#" class="btn btn-primary me-2">Learn More</a>
+              <a href="#" class="btn btn-outline-secondary">Visit Site</a>
+            </div>
+          </div>
+        </div>
+
+        <hr>
+    </section>
+
+    <!-- D) Data from JS Array -->
+    <section class="mb-5">
+      <h2>D) Cards from JavaScript Arrays</h2>
+      <div id="html-data-cards" class="row">
+        <!-- Cards will be populated by html-data.js -->
+      </div>
+      <hr>
+    </section>
+
+    <!-- E) Data from JS Objects -->
+    <section class="mb-5">
+      <h2>E) Cards from JavaScript Objects</h2>
+      <div id="js-data-cards" class="row">
+        <!-- Cards will be populated by js-data.js -->
+      </div>
+      <hr>
+    </section>
+
+    <!-- F) Data from JSON -->
+    <section class="mb-5">
+      <h2>F) Cards from JSON Data</h2>
+      <div id="json-data-cards" class="row">
+        <!-- Cards will be populated by json-data.js -->
+      </div>
+      <hr>
+    </section>
+
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="../scripts/html-data.js"></script>
+  <script src="../scripts/js-data.js"></script>
+  <script src="../scripts/json-data.js"></script>
 </body>
 
 </html>

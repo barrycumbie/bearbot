@@ -1,0 +1,86 @@
+{
+  "places": [
+    {
+      "id": 1,
+      "name": "Tampa",
+      "state": "Florida",
+      "country": "USA",
+      "description": "A vibrant city on Florida's Gulf Coast known for its beaches, diverse culture, and thriving nightlife scene.",
+      "image": "https://via.placeholder.com/400x250?text=Tampa,+FL",
+      "tags": ["Beach", "Urban", "Nightlife", "Culture"],
+      "yearsLived": "2010-2012, 2018-2020",
+      "website": "https://www.tampagov.net/"
+    },
+    {
+      "id": 2,
+      "name": "New Hampshire",
+      "state": "New Hampshire",
+      "country": "USA",
+      "description": "The Live Free or Die state, famous for stunning fall foliage, mountains, and no state income tax.",
+      "image": "https://via.placeholder.com/400x250?text=New+Hampshire",
+      "tags": ["Mountains", "Rural", "Seasons", "Freedom"],
+      "yearsLived": "2005-2008",
+      "website": "https://www.nh.gov/"
+    },
+    {
+      "id": 3,
+      "name": "Huntsville",
+      "state": "Alabama",
+      "country": "USA",
+      "description": "The Rocket City - home to NASA's Marshall Space Flight Center and a thriving aerospace industry.",
+      "image": "https://via.placeholder.com/400x250?text=Huntsville,+AL",
+      "tags": ["Space", "Technology", "NASA", "Innovation"],
+      "yearsLived": "2015-2017",
+      "website": "https://www.huntsvilleal.gov/"
+    },
+    {
+      "id": 4,
+      "name": "Auburn",
+      "state": "Alabama",
+      "country": "USA",
+      "description": "Home to Auburn University and the famous 'War Eagle' battle cry. A classic college town experience.",
+      "image": "https://via.placeholder.com/400x250?text=Auburn,+AL",
+      "tags": ["College Town", "Sports", "University", "Community"],
+      "yearsLived": "2008-2012, 2013-2015",
+      "website": "https://www.auburnalabama.org/"
+    },
+    {
+      "id": 5,
+      "name": "Redmond",
+      "state": "Washington",
+      "country": "USA",
+      "description": "Pacific Northwest tech hub, home to major technology companies and beautiful natural surroundings.",
+      "image": "https://via.placeholder.com/400x250?text=Redmond,+WA",
+      "tags": ["Tech Hub", "Pacific Northwest", "Innovation", "Nature"],
+      "yearsLived": "2020-2022",
+      "website": "https://www.redmond.gov/"
+    },
+    {
+      "id": 6,
+      "name": "Hattiesburg",
+      "state": "Mississippi",
+      "country": "USA",
+      "description": "The Hub City of Mississippi, known for Southern hospitality and the University of Southern Mississippi.",
+      "image": "https://via.placeholder.com/400x250?text=Hattiesburg,+MS",
+      "tags": ["Southern", "University", "Small City", "Hospitality"],
+      "yearsLived": "2012-2013",
+      "website": "https://www.hattiesburgms.com/"
+    },
+    {
+      "id": 7,
+      "name": "Florence",
+      "state": "Alabama",
+      "country": "USA",
+      "description": "Historic city in the Tennessee Valley, known for its music heritage and charming downtown area.",
+      "image": "https://via.placeholder.com/400x250?text=Florence,+AL",
+      "tags": ["Historic", "Music", "Tennessee Valley", "Arts"],
+      "yearsLived": "2022-2024",
+      "website": "https://www.florenceal.org/"
+    }
+  ],
+  "metadata": {
+    "totalPlaces": 7,
+    "dateCreated": "2026-02-04",
+    "description": "Places I've lived throughout my life"
+  }
+}
