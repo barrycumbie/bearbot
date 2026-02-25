@@ -3,13 +3,43 @@
 
 document.addEventListener('DOMContentLoaded', () => {
 
-  showSignInOut(); 
+  const userGreeting = document.getElementById('userGreeting');
+  const searchClass = document.getElementsByClassName('searchClass');
+  userGreeting.textContent = '';
 
-  document.getElementById('btnLogout').addEventListener('click', ()=>{
-    showLogoutToast(); 
+  const authStatus = isAuthN(); //resolve into boolean t/f  
+  console.log('isAuthN?', authStatus);
+
+  showSignInOut();
+
+  // todo: refactor as f/n initSecretStuff. 
+  if (authStatus === true) {
+    userGreeting.textContent = `hello, ${sessionStorage.getItem('username')}`;
+
+    Object.keys(searchClass).forEach(key => {
+      searchClass[key].removeAttribute('disabled');
+    });
+
+    //load videos. 
+    loadVideoContent();
+
+  }
+
+
+  document.getElementById('btnLogout').addEventListener('click', () => {
+    showLogoutToast();
     sessionStorage.clear();
-    showSignInOut(); 
-  }); 
+    console.log('isAuthN?', sessionStorage.getItem('isAuthN'));
+    showSignInOut();
+    userGreeting.textContent = '';
+
+    Object.keys(searchClass).forEach(key => {
+      searchClass[key].disabled = true;
+      searchClass[key].value = '';
+    });
+
+    unloadVideoContent();
+  });
 
 });
 
@@ -17,24 +47,25 @@ document.addEventListener('DOMContentLoaded', () => {
 function isAuthN() {
   return sessionStorage.getItem('isAuthN') === 'true';
 }
+
 function showSignInOut() {
   if (isAuthN()) {
     //show logout
     const btnLogout = document.getElementById('btnLogout');
-    btnLogout.classList.remove('d-none'); 
+    btnLogout.classList.remove('d-none');
 
     //hide login
     const btnLogin = document.getElementById('btnLogin');
-    btnLogin.classList.add('d-none'); 
+    btnLogin.classList.add('d-none');
   }
-  else if(!isAuthN()){
-     //hide logout
+  else if (!isAuthN()) {
+    //hide logout
     const btnLogout = document.getElementById('btnLogout');
-    btnLogout.classList.add('d-none'); 
+    btnLogout.classList.add('d-none');
 
     //show login
     const btnLogin = document.getElementById('btnLogin');
-    btnLogin.classList.remove('d-none'); 
+    btnLogin.classList.remove('d-none');
   }
 
 }

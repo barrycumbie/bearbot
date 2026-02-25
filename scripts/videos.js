@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", () => {
+function loadVideoContent() {
   fetch("../assets/data/video-data.json")
     .then(response => {
       if (!response.ok) {
@@ -51,5 +51,10 @@ document.addEventListener("DOMContentLoaded", () => {
       document.getElementById("videoGrid").innerHTML =
         "<p class='text-danger'>Unable to load videos.</p>";
     });
-});
+}
 
+
+function unloadVideoContent() {
+  document.getElementById("videoGrid").textContent='';
+
+} 

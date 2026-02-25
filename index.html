@@ -29,6 +29,7 @@
             <li class="nav-item"><a class="nav-link" href="#">about.</a></li>
             <li class="nav-item"><a class="nav-link" href="#">cnvs.</a></li>
           </ul>
+          <span id="userGreeting" class="text-light"></span>
           <a href="pages/login.html" id="btnLogin" class="btn btn-light ms-sm-3 d-none" type="button">login</a>
           <button id="btnLogout" class="btn btn-outline-light ms-sm-3 d-none" type="button">logout</a>
         </div>
@@ -40,14 +41,15 @@
 
           <form class="d-flex align-items-center gap-2 justify-content-center">
 
-            <input class="form-control form-control-lg flex-grow-1 rounded-pill" disabled  type="search" placeholder="search for anything..."
-              aria-label="Search">
+            <input id="searchBox" class="searchClass form-control form-control-lg flex-grow-1 rounded-pill" disabled type="search"
+              placeholder="search for anything..." aria-label="Search">
 
-            <button class="btn btn-link text-dark fs-4 p-1" type="button" title="Sort" disabled>
+            <button class="searchClass btn btn-link text-dark fs-4 p-1" type="button" title="Sort"
+              disabled>
               <i class="bi bi-arrow-down-up"></i>
             </button>
 
-            <button class="btn btn-link text-dark fs-4 p-1" type="button" title="Filter" disabled>
+            <button class="searchClass btn btn-link text-dark fs-4 p-1" type="button" title="Filter" disabled>
               <i class="bi bi-funnel"></i>
             </button>
 
@@ -59,11 +61,16 @@
     </div>
   </nav>
 
+  <!-- todo: why no centered?  -->
+  <div class="align-items-center">
+    <h1 class="m-2 p-2">Cumbie's WebDev Knowledge Place</h1>
+    <h4 class="m-2 p-2">CIS 376 Spring 2026 Course Page.</h4>
+  </div>
 
-
-
-
-  <!-- ...existing code... -->
+  <!-- video content -->
+  <div class="container my-4">
+    <div id="videoGrid" class="row g-3"></div>
+  </div>
 
   <!-- ...existing code... -->
 
@@ -100,7 +107,11 @@
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
     crossorigin="anonymous"></script>
+  <!-- <script src="scripts/session.js"></script>   -->
+  <script src="scripts/videos.js"></script>
   <script src="scripts/login-logout.js"></script>
+  <script src="scripts/search.js"></script>
+  
 </body>
 
 </html>
