@@ -77,13 +77,13 @@
         "dateAdded": "2026-02-12"
       }, 
       {
-         "id": "...",
-        "title": "too long and too complex",
-        "description": "...",
+         "id": "webdev-integrating-login-search-etc",
+        "title": "webdev integrating login, search, etc.",
+        "description": "watch the start...probably want to dip out when it get's crazy...but then can check in with final code on the repo to see the outcome. ",
         "videoId": "gvK9Kfp_Blk",
         "url": "https://youtu.be/gvK9Kfp_Blk",
-        "duration": "...",
-        "topics": ["..."],
+        "duration": "1:26:21",
+        "topics": ["fetch, loop through object, js, repo"],
         "dateAdded": "2026-02-25"
        
       }
