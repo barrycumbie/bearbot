@@ -1,5 +1,5 @@
 function loadVideoContent() {
-  fetch("../assets/data/video-data.json")
+  fetch("https://barrycumbie.github.io/bearbot/assets/data/video-data.json")
     .then(response => {
       if (!response.ok) {
         throw new Error("Failed to load video data");
