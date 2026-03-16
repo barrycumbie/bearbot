@@ -15,6 +15,9 @@ CIS 376 Spring 2026 Course Page.
 **So that** I don't get lost in Cumbie's non-linear, messy, Agile dump of content. 
 
 ## concept of this app.
+
+here's some adjacent dev work: https://codepen.io/barrycumbie/pen/VYKbeYe
+
 <img width="1066" height="898" alt="image" src="https://github.com/user-attachments/assets/6d626fa2-90e1-485c-8338-70312436b9e1" />
 
 ## app validity
