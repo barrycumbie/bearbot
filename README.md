@@ -17,6 +17,11 @@ CIS 376 Spring 2026 Course Page.
 ## concept of this app.
 <img width="1066" height="898" alt="image" src="https://github.com/user-attachments/assets/6d626fa2-90e1-485c-8338-70312436b9e1" />
 
+## app validity
+
+- all good on [Nu](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbarrycumbie.github.io%2Fbearbot%2F)
+  - a few warnings, no errors.  
+
 ## code sample
 
 Here's how the login flow works. 
