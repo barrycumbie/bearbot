@@ -1,0 +1,226 @@
+[
+  {
+    "name": "Quick File Search",
+    "category": "VS Code",
+    "description": "Quickly find and open any file in your workspace by name",
+    "keystrokes": { "mac": "Cmd + P", "pc": "Ctrl + P" },
+    "author": "barrycumbie",
+    "tips": "Fuzzy search works great - just type part of the name."
+  },
+  {
+    "name": "Command Palette",
+    "category": "VS Code",
+    "description": "Access all commands in VS Code",
+    "keystrokes": { "mac": "Cmd + Shift + P", "pc": "Ctrl + Shift + P" },
+    "author": "barrycumbie",
+    "tips": "Your fastest way to do anything in VS Code."
+  },
+  {
+    "name": "Find in File",
+    "category": "VS Code",
+    "description": "Search within the current file",
+    "keystrokes": { "mac": "Cmd + F", "pc": "Ctrl + F" },
+    "author": "barrycumbie",
+    "tips": "Use arrows to cycle through matches."
+  },
+  {
+    "name": "Global Search",
+    "category": "VS Code",
+    "description": "Search across entire project",
+    "keystrokes": { "mac": "Cmd + Shift + F", "pc": "Ctrl + Shift + F" },
+    "author": "barrycumbie",
+    "tips": "Great for refactoring variable names."
+  },
+  {
+    "name": "Multi-Cursor",
+    "category": "VS Code",
+    "description": "Edit multiple lines at once",
+    "keystrokes": { "mac": "Option + Click", "pc": "Alt + Click" },
+    "author": "barrycumbie",
+    "tips": "Also use Cmd/Ctrl + D to select next match."
+  },
+  {
+    "name": "Duplicate Line",
+    "category": "VS Code",
+    "description": "Duplicate current line or selection",
+    "keystrokes": { "mac": "Shift + Option + Down", "pc": "Shift + Alt + Down" },
+    "author": "barrycumbie",
+    "tips": "Great for quick repetition or testing."
+  },
+  {
+    "name": "Move Line",
+    "category": "VS Code",
+    "description": "Move line up or down",
+    "keystrokes": { "mac": "Option + Up/Down", "pc": "Alt + Up/Down" },
+    "author": "barrycumbie",
+    "tips": "No need to cut and paste."
+  },
+  {
+    "name": "Toggle Comment",
+    "category": "VS Code",
+    "description": "Comment/uncomment code",
+    "keystrokes": { "mac": "Cmd + /", "pc": "Ctrl + /" },
+    "author": "barrycumbie",
+    "tips": "Works across most languages."
+  },
+  {
+    "name": "Format Document",
+    "category": "VS Code",
+    "description": "Auto-format your code",
+    "keystrokes": { "mac": "Shift + Option + F", "pc": "Shift + Alt + F" },
+    "author": "barrycumbie",
+    "tips": "Requires formatter like Prettier."
+  },
+  {
+    "name": "Rename Symbol",
+    "category": "VS Code",
+    "description": "Rename variable/function everywhere",
+    "keystrokes": { "mac": "F2", "pc": "F2" },
+    "author": "barrycumbie",
+    "tips": "Safe refactoring tool."
+  },
+  {
+    "name": "Open Terminal",
+    "category": "VS Code",
+    "description": "Toggle integrated terminal",
+    "keystrokes": { "mac": "Ctrl + `", "pc": "Ctrl + `" },
+    "author": "barrycumbie",
+    "tips": "Backtick key (above Tab)."
+  },
+  {
+    "name": "Git Stage All",
+    "category": "GitHub",
+    "description": "Stage all changes",
+    "keystrokes": { "mac": "git add .", "pc": "git add ." },
+    "author": "barrycumbie",
+    "tips": "Be careful - stages everything."
+  },
+  {
+    "name": "Git Commit",
+    "category": "GitHub",
+    "description": "Commit staged changes",
+    "keystrokes": { "mac": "git commit -m", "pc": "git commit -m" },
+    "author": "barrycumbie",
+    "tips": "Write meaningful messages."
+  },
+  {
+    "name": "Git Push",
+    "category": "GitHub",
+    "description": "Push commits to remote",
+    "keystrokes": { "mac": "git push", "pc": "git push" },
+    "author": "barrycumbie",
+    "tips": "Sync your work frequently."
+  },
+  {
+    "name": "Git Pull",
+    "category": "GitHub",
+    "description": "Pull latest changes",
+    "keystrokes": { "mac": "git pull", "pc": "git pull" },
+    "author": "barrycumbie",
+    "tips": "Always pull before pushing."
+  },
+  {
+    "name": "Reload Page",
+    "category": "Browser",
+    "description": "Refresh the current page",
+    "keystrokes": { "mac": "Cmd + R", "pc": "Ctrl + R" },
+    "author": "barrycumbie",
+    "tips": "Use often during dev."
+  },
+  {
+    "name": "Hard Refresh",
+    "category": "Browser",
+    "description": "Reload without cache",
+    "keystrokes": { "mac": "Cmd + Shift + R", "pc": "Ctrl + Shift + R" },
+    "author": "barrycumbie",
+    "tips": "Fix caching issues."
+  },
+  {
+    "name": "Open DevTools",
+    "category": "Browser",
+    "description": "Open developer tools",
+    "keystrokes": { "mac": "Cmd + Option + I", "pc": "Ctrl + Shift + I" },
+    "author": "barrycumbie",
+    "tips": "Your debugging best friend."
+  },
+  {
+    "name": "Inspect Element",
+    "category": "Browser",
+    "description": "Inspect selected element",
+    "keystrokes": { "mac": "Cmd + Shift + C", "pc": "Ctrl + Shift + C" },
+    "author": "barrycumbie",
+    "tips": "Hover to explore DOM."
+  },
+  {
+    "name": "New Tab",
+    "category": "Browser",
+    "description": "Open a new tab",
+    "keystrokes": { "mac": "Cmd + T", "pc": "Ctrl + T" },
+    "author": "barrycumbie",
+    "tips": "Basic but essential."
+  },
+  {
+    "name": "Switch Tabs",
+    "category": "Browser",
+    "description": "Move between tabs",
+    "keystrokes": { "mac": "Cmd + Option + Left/Right", "pc": "Ctrl + Tab" },
+    "author": "barrycumbie",
+    "tips": "Faster than mouse."
+  },
+  {
+    "name": "Close Tab",
+    "category": "Browser",
+    "description": "Close current tab",
+    "keystrokes": { "mac": "Cmd + W", "pc": "Ctrl + W" },
+    "author": "barrycumbie",
+    "tips": "Careful with unsaved work."
+  },
+  {
+    "name": "Reopen Closed Tab",
+    "category": "Browser",
+    "description": "Reopen last closed tab",
+    "keystrokes": { "mac": "Cmd + Shift + T", "pc": "Ctrl + Shift + T" },
+    "author": "barrycumbie",
+    "tips": "Saves you often."
+  },
+  {
+    "name": "Spotlight/Search",
+    "category": "OS",
+    "description": "Search apps and files",
+    "keystrokes": { "mac": "Cmd + Space", "pc": "Win + S" },
+    "author": "barrycumbie",
+    "tips": "Fastest way to open anything."
+  },
+  {
+    "name": "Switch Apps",
+    "category": "OS",
+    "description": "Cycle through open apps",
+    "keystrokes": { "mac": "Cmd + Tab", "pc": "Alt + Tab" },
+    "author": "barrycumbie",
+    "tips": "Core multitasking move."
+  },
+  {
+    "name": "Screenshot",
+    "category": "OS",
+    "description": "Capture screen or selection",
+    "keystrokes": { "mac": "Cmd + Shift + 4", "pc": "Win + Shift + S" },
+    "author": "barrycumbie",
+    "tips": "Great for debugging and docs."
+  },
+  {
+    "name": "Copy",
+    "category": "∞ Universal",
+    "description": "Copy selected content",
+    "keystrokes": { "mac": "Cmd + C", "pc": "Ctrl + C" },
+    "author": "barrycumbie",
+    "tips": "Muscle memory essential."
+  },
+  {
+    "name": "Paste",
+    "category": "∞ Universal",
+    "description": "Paste copied content",
+    "keystrokes": { "mac": "Cmd + V", "pc": "Ctrl + V" },
+    "author": "barrycumbie",
+    "tips": "Pairs with copy."
+  }
+]
